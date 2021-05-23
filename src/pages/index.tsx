@@ -1,4 +1,5 @@
 import Head from "next/head";
+import MainScreen from "screens/MainScreen";
 
 export default function Home() {
   return (
@@ -7,9 +8,7 @@ export default function Home() {
         <title>Gilbert Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <h1 className="title">Quick Start</h1>
-      </main>
+      <MainScreen />
     </div>
   );
 }
